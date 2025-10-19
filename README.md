@@ -87,7 +87,7 @@ pnpm add -D @types/node
 
 All of those dependencies will be added to the package.json previously created. 
 
-Implement the `docker-compose.yml`
+Implement the `docker-compose.yml` : Can find it to the root project. 
 
 And run `docker-compose up -d` in the terminal, MongoDB database Docker image (for collections) will be created
 
