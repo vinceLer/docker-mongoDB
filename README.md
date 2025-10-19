@@ -4,6 +4,8 @@
 
 </h1>
 
+# image: : Use the Mongo official image.
+
 ## Dependencies 
 - mongodb: 6.20.0
 - @types/node: 24.8.1
