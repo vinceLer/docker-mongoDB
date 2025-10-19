@@ -17,7 +17,7 @@ git clone https://github.com/vinceLer/docker-mongodb.git
 ```
 
 ```bash 
-cd .. 
+cd ./docker-mongodb 
 ```
 
 ```bash 
