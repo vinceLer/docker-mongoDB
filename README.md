@@ -12,6 +12,8 @@
 
 ## CLI 
 
+Execute command lines below in order to start quickly the MongoDB Docker project :
+
 ```bash 
 git clone https://github.com/vinceLer/docker-mongodb.git
 ```
@@ -55,7 +57,7 @@ node dist/index.js
 
 From the project repository. Open terminal. 
 
-Initialize project using `pnpm`
+Initialize project using `pnpm` :
 
 ```bash 
 pnpm init 
@@ -89,11 +91,11 @@ All of those dependencies will be added to the package.json previously created.
 
 Implement the `docker-compose.yml` : Can find it to the root project. 
 
-And run `docker-compose up -d` in the terminal, MongoDB database Docker image (for collections) will be created
+Then run `docker-compose up -d` in the terminal, MongoDB database Docker image (for collections) will be created
 
 Then for the example,
 
-Compile Typescript files 
+Compile Typescript files :
 
 ```bash 
 pnpm exec tsc
@@ -105,7 +107,7 @@ And execute them wiht Node.js, the script mentionned below will generate "Collec
 node dist/index.js
 ```
 
-Then navigate to the `http://localhost:8081/` to access `mongo-express` URL. 
+ Finally, navigate to the `http://localhost:8081/` to access `mongo-express` URL. 
 
 ### MongoDB connexion
 
