@@ -61,6 +61,8 @@ Initialize project using `pnpm`
 pnpm init 
 ```
 
+This will add at the root project, a package.json. 
+
 Add Typecscript :
 
 ```bash 
@@ -82,6 +84,8 @@ pnpm add -D @types/mongodb
 ```bash 
 pnpm add -D @types/node
 ```
+
+All of those dependencies will be added to the package.json previously created. 
 
 Implement the `docker-compose.yml`
 
