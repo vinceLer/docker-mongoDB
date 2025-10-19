@@ -63,7 +63,7 @@ pnpm init
 
 This will add at the root project, a package.json. 
 
-Add Typecscript :
+Then add Typecscript :
 
 ```bash 
 pnpm add -D typescript ts-node @types/node
@@ -75,7 +75,7 @@ Add official MongoDb client for Node.js :
 pnpm add mongodb
 ```
 
-Add TypeScript types for the package (useful if TypeScript is used) :
+And add TypeScript types for the package (useful if TypeScript is used) :
 
 ```bash 
 pnpm add -D @types/mongodb
