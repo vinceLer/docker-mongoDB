@@ -83,9 +83,19 @@ pnpm add -D @types/mongodb
 pnpm add -D @types/node
 ```
 
+Implement the `docker-compose.yml`
+
+And run `docker-compose up -d` in the terminal, MongoDB database Docker image (for collections) will be created
+
+Then for the example,
+
+Compile Typescript files 
+
 ```bash 
 pnpm exec tsc
 ```
+
+And execute them wiht Node.js, the script mentionned below will generate "Collection" (table) with some data for the example 
 
 ```bash 
 node dist/index.js
