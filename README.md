@@ -36,7 +36,9 @@ If the command below, doesn't work :
 ts-node src/index.ts
 ```
 
-Run this one. Compile Typescript files in Javascript one : 
+Run this one.
+
+Compile Typescript files in Javascript one : 
 
 ```bash 
 pnpm exec tsc  
