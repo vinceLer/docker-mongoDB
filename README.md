@@ -38,7 +38,7 @@ Build MongoDB container by running the `docker-compose.yml` at the root project 
 docker-compose up -d
 ```
 
-Then execute the index.ts with `ts-node` dependency. 
+Then execute the `index.ts with` `ts-node` dependency. 
 
 If the command line below, doesn't work : 
 
