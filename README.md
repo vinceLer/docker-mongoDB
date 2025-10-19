@@ -51,7 +51,7 @@ node dist/index.js
 - This simplify the development : no need to add a `@types/*` package
 
 
-## From Scratch 
+## This project from Scratch 
 
 From the project repository. Open terminal. 
 
