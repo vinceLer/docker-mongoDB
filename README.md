@@ -52,10 +52,10 @@ And execute them with Node :
 node dist/index.js  
 ```
 
-
 - Since `mongodb@4.x` , all TypeScript types are directly integrated in the main package.
 - This simplify the development : no need to add a `@types/*` package
 
+Finally, navigate to the `http://localhost:8081/` to access `mongo-express` URL. 
 
 ## This project from Scratch 
 
