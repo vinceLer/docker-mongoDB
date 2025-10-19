@@ -14,7 +14,9 @@
 
 ## CLI 
 
-Execute command lines below in order to start quickly the MongoDB Docker project :
+To start quickly this MongoDB Docker project, open terminal and execute command line below : 
+
+Install the project : 
 
 ```bash 
 git clone https://github.com/vinceLer/docker-mongodb.git
@@ -24,15 +26,21 @@ git clone https://github.com/vinceLer/docker-mongodb.git
 cd ./docker-mongodb 
 ```
 
+Install dependencies : 
+
 ```bash 
 pnpm install
 ```
+
+Build MongoDB container by running the `docker-compose.yml` at the root project : 
 
 ```bash 
 docker-compose up -d
 ```
 
-If the command below, doesn't work : 
+Then execute the index.ts with `ts-node` dependency. 
+
+If the command line below, doesn't work : 
 
 ```bash 
 ts-node src/index.ts
