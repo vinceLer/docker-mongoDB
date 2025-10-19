@@ -40,7 +40,7 @@ Run this one. Compile Typescript files in Javascript one :
 pnpm exec tsc  
 ```
 
-And execute them with Javascript : 
+And execute them with Node : 
 
 ```bash 
 node dist/index.js  
