@@ -9,8 +9,8 @@
 ## Dependencies 
 - mongodb: 6.20.0
 - @types/node: 24.8.1
-- ts-node": 10.9.2,
-- typescript": 5.9.3
+- ts-node: 10.9.2,
+- typescript: 5.9.3
 
 ## CLI 
 
